@@ -1,3 +1,12 @@
+import NetflixSerises, { Header, Footer } from "./components/NetflixSerises";
+
 export const App = () => {
-  return <h1>Hello, Duniya</h1>
-}
+  return (
+    <>
+      <Header />
+      <NetflixSerises />
+      <Footer />
+    </>
+  );
+};
+
