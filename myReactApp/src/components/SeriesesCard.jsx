@@ -1,4 +1,4 @@
-export const SeriesesCard = (data) => {
+export const SeriesesCard = ({ data }) => {
     const {img_url, name, rating, description, genre, cast, watch_url } = data;
     return (
         <li>

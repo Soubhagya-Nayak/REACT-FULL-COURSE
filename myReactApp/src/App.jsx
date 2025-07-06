@@ -1,12 +1,12 @@
-import NetflixSerises, { Header, Footer } from "./components/NetflixSerises";
+import NetflixSerises from "./components/NetflixSerises";
+import "./components/Netflix.css"
 
 export const App = () => {
   return (
-    <>
-      <Header />
+    <section className="container">
+      <h1 className="card-header">Best Series in Netflix</h1>
       <NetflixSerises />
-      <Footer />
-    </>
+      <h3 className="card-footer">All Copyright reserved @ sourcebysoubh | 2025</h3>
+    </section>
   );
 };
-
