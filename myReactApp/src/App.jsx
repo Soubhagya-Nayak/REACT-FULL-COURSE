@@ -1,5 +1,6 @@
 import NetflixSerises from "./components/NetflixSerises";
-import "./components/Netflix.css"
+// import "./components/Netflix.css";
+import "./components/Netflix.module.css";
 
 export const App = () => {
   return (

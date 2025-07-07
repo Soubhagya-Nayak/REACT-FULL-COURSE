@@ -1,5 +1,5 @@
 import seriesesData from "../api/seriesesData.json";
-import { SeriesesCard } from "./SeriesesCard";
+import { SeriesesCard } from "../components/SeriesesCard";
 
 const NetflixSerises = () => {
   return (
