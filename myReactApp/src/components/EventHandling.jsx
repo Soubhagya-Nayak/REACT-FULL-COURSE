@@ -1,4 +1,4 @@
-// import "./components/EV.css";
+import "./EV.css";
 
 export const EventHandling = () => {
 

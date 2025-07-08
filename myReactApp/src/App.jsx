@@ -1,7 +1,10 @@
 // import NetflixSerises from "./components/NetflixSerises";
 // import "./components/Netflix.css";
-import "./components/Netflix.module.css";
-import { EventHandling } from "./components/EventHandling";
+// import "./components/Netflix.module.css";
+import "./components/EV.css";
+// import { EventHandling } from "./components/EventHandling";
+// import { EventProps } from "./components/EventProps";
+import { EventPropagation } from "./components/EventPropagation";
 
 export const App = () => {
   return (
@@ -9,7 +12,9 @@ export const App = () => {
       {/* <h1 className="card-header">Best Series in Netflix</h1> */}
       {/* <NetflixSerises /> */}
       {/* <h3 className="card-footer">All Copyright reserved @ sourcebysoubh | 2025</h3> */}
-      <EventHandling />
+      {/* <EventHandling /> */}
+      {/* <EventProps /> */}
+      <EventPropagation />
     </section>
   );
 };

@@ -3,3 +3,21 @@ button {
     width: 100px;
     background-color: yellow;
 }
+
+.g-div {
+    height: 400px;
+    width: 400px;
+    background-color: aqua;
+}
+
+.p-div {
+    height: 250px;
+    width: 250px;
+    background-color: red;
+}
+
+.c-div {
+    height: 100px;
+    width: 100px;
+    background-color: yellow;
+}
