@@ -7,7 +7,8 @@ import "./components/EV.css";
 // import { EventPropagation } from "./components/EventPropagation";
 // import { States } from "./components/hooks/States";
 // import { DerivedState } from "./components/DerivedState";
-import { LiftingState } from "./components/LiftingStateUp";
+// import { LiftingState } from "./components/LiftingStateUp";
+import { ToggleSwitch } from "./project1/ToggleSwitch";
 
 export const App = () => {
   return (
@@ -20,7 +21,8 @@ export const App = () => {
       {/* <EventPropagation /> */}
       {/* <States /> */}
       {/* <DerivedState /> */}
-      <LiftingState />
+      {/* <LiftingState /> */}
+      <ToggleSwitch />
     </section>
   );
 };
