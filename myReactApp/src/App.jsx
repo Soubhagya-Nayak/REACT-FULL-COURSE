@@ -4,7 +4,9 @@
 import "./components/EV.css";
 // import { EventHandling } from "./components/EventHandling";
 // import { EventProps } from "./components/EventProps";
-import { EventPropagation } from "./components/EventPropagation";
+// import { EventPropagation } from "./components/EventPropagation";
+// import { States } from "./components/hooks/States";
+import { DerivedState } from "./components/DerivedState";
 
 export const App = () => {
   return (
@@ -14,7 +16,9 @@ export const App = () => {
       {/* <h3 className="card-footer">All Copyright reserved @ sourcebysoubh | 2025</h3> */}
       {/* <EventHandling /> */}
       {/* <EventProps /> */}
-      <EventPropagation />
+      {/* <EventPropagation /> */}
+      {/* <States /> */}
+      <DerivedState />
     </section>
   );
 };
