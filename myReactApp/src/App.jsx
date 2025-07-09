@@ -6,7 +6,8 @@ import "./components/EV.css";
 // import { EventProps } from "./components/EventProps";
 // import { EventPropagation } from "./components/EventPropagation";
 // import { States } from "./components/hooks/States";
-import { DerivedState } from "./components/DerivedState";
+// import { DerivedState } from "./components/DerivedState";
+import { LiftingState } from "./components/LiftingStateUp";
 
 export const App = () => {
   return (
@@ -18,7 +19,8 @@ export const App = () => {
       {/* <EventProps /> */}
       {/* <EventPropagation /> */}
       {/* <States /> */}
-      <DerivedState />
+      {/* <DerivedState /> */}
+      <LiftingState />
     </section>
   );
 };

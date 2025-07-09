@@ -21,3 +21,11 @@ button {
     width: 100px;
     background-color: yellow;
 }
+
+.main-div {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-weight: 900;
+    font-size: 3rem;
+}
