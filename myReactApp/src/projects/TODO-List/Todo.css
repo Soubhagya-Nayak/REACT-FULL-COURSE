@@ -44,6 +44,7 @@ section h1 {
 .date-time {
     font-size: 2.4rem;
     text-align: center;
+    color: #f2f3f4;
 }
 
 form {
@@ -194,4 +195,9 @@ li span {
 
 .clear-btn:hover {
     background-color: #8d1407;
+}
+
+:root {
+    --primary-color: #1c2833;
+    /* --secondary-color:  */
 }
