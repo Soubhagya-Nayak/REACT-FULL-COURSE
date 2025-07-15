@@ -8,11 +8,17 @@ function App() {
   const [counter, setCounter] = useState(15); // useState Hook
 
   const addValue = () => {
-    setCounter(counter + 1);
+    if (counter < 20) {
+      setCounter(counter + 1);
+      return;
+    }
   }
 
   const removeValue = () => {
-    setCounter(counter - 1);
+    if (counter > 0) {
+      setCounter(counter - 1);
+      return;
+    }
   }
   return (
     <>
