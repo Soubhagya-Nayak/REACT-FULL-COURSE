@@ -1,5 +1,4 @@
 export const Card = ({userName, btnTxt}) => {
-    // console.log(props.userName);
     return (
         <>
             <div className="max-w-xs rounded-md shadow-md bg-black text-gray-100">
